@@ -58,7 +58,7 @@ difference between a clean ledger and an incident report:
 ## Progress tracker
 
 ### Phase 1 — Fundamentals
-- [ ] 01 — Hello World
+- [x] 01 — Hello World
 - [ ] 02 — Data Types
 - [ ] 03 — Operators
 - [ ] 04 — Type Conversions
