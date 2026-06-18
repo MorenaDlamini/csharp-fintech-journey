@@ -1,0 +1,35 @@
+## .NET / VS Code gitignore
+
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Rider / VS
+.vs/
+.idea/
+*.user
+*.suo
+
+# VS Code (keep shared settings if you want; ignoring local ones)
+.vscode/*
+!.vscode/extensions.json
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coverage.xml
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Misc
+*.log
+.DS_Store

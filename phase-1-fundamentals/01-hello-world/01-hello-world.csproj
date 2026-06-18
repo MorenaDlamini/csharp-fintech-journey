@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Nullable is ON: the compiler warns when a value could be null.
+         Good discipline everywhere, essential in fintech. -->
+    <Nullable>enable</Nullable>
+    <!-- net10.0 defaults to C# 14, so we don't need to set LangVersion. -->
+  </PropertyGroup>
+
+</Project>
